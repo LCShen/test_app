@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3025245796">
+    <data-source source="LOCAL" name="Rails test_app: test" uuid="70008711-d6bc-48d0-80b6-3f06142557bc">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails test_app: development" uuid="dad32a3a-630f-4d0a-8827-f278dd78d425">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/TestApp_development</jdbc-url>
+      <user-name>William</user-name>
+      <user-password>dffadfcbdfd9dfd9dfdddfcedf99df98df9f</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -5,7 +5,9 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'pg', '0.15.1'
 gem 'rails_12factor'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.2.0'
+# fix undefined method `environment' for nil:NilClass
+gem 'sprockets', '<= 2.11.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'

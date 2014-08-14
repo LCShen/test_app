@@ -9,6 +9,8 @@ gem 'bootstrap-sass', '2.3.2.0'
 # fix undefined method `environment' for nil:NilClass
 gem 'sprockets', '<= 2.11.0'
 
+gem 'bcrypt-ruby', '3.0.1'
+
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'

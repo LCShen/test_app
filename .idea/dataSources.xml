@@ -12,7 +12,6 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/TestApp_development</jdbc-url>
       <user-name>William</user-name>
-      <user-password>dffadfcbdfd9dfd9dfdddfcedf99df98df9f</user-password>
       <libraries />
     </data-source>
   </component>

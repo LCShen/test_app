@@ -1,9 +1,13 @@
 class User < ActiveRecord::Base
-  before_save { self.email = email.downcase }
+
+  # change self.email = email.downcase to email.downcase!
+  before_save { email.downcase! }
 
   validates :name, presence: true, length: { maximum: 50 }
 
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  #VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  # avoid double dot happen in some case from the previous REGEX.
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
   OFFICIAL_VALID_EMAIL_REGEX = /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
   validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }, uniqueness: { case_sensitive: false }
 

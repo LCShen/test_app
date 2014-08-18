@@ -32,7 +32,7 @@ test:
   database: TestApp_test
   host: localhost
   port: 5432
-  username: William
+  username: william
   password:
 
 

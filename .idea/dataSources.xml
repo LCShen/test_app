@@ -5,7 +5,7 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/TestApp_test</jdbc-url>
-      <user-name>William</user-name>
+      <user-name>william</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails test_app: development" uuid="dad32a3a-630f-4d0a-8827-f278dd78d425">
